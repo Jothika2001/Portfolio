@@ -1,0 +1,31 @@
+/* src/App.css */
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+/* Example custom CSS for nav-link */
+.nav-link-custom {
+  color: #ffffff;  /* Dark text color for light navbar */
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-link-custom:hover {
+  color: #00c8ff;  /* Blue color on hover */
+}
+
+
+.home {
+  position: relative;
+}
+
+.home::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  z-index: -1;
+}
