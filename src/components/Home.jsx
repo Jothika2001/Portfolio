@@ -62,7 +62,7 @@ function Home() {
             
             {/* View Projects Button */}
             <a
-              href="https://github.com/Jothika1912"
+              href="https://github.com/Jothika1912/HTML-CSS-JAVASCRIPT-REACT"
               className="btn btn-outline-light rounded-pill px-5 py-3 mb-4 shadow-lg"
               style={{ border: "2px solid white", textDecoration: "none", transition: "all 0.3s ease" }}
               onMouseOver={(e) => e.currentTarget.style.backgroundColor = "#f8f9fa"}
@@ -75,7 +75,7 @@ function Home() {
             <div className="mt-4">
               {/* GitHub Link */}
               <a
-                href="https://github.com/Jothika1912"
+                href="https://github.com/Jothika2001"
                 className="mx-2 text-light"
                 style={{
                   fontSize: "1.5rem",
